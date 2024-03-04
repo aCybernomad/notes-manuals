@@ -1,3 +1,5 @@
+Obs! .gitgnore
+
 # Konfigurera VM med Terraform
 
 ### Beskrivning i Terraform koden
