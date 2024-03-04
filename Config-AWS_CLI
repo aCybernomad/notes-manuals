@@ -23,17 +23,3 @@ Bara Det två första
 Skippa de två sista
 ```
 
-<br>
-
-# Terraform
-
-### Kommandon
-
-```bash
-$ terraform init
-$ terragorm fmt
-$ terraform validate
-$ terraform apply
-```
-
-Glöm ej .gitignore
