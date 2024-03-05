@@ -4,7 +4,8 @@ steg 1 ./run-docker<br>
 steg 3 Kör appen pg.js<br>
 steg 2 ./check-table
 
-### Starta docker med miljö-variabler
+(hoppa denna om du kör med en volume) 
+### Starta docker med miljövariabler
 
 ```js
 docker run -e POSTGRES_PASSWORD=pass -e POSTGRES_USER=awesome -e POSTGRES_DB=iss-db -p 5432:5432 -it (-d) postgres
