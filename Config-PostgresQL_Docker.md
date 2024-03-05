@@ -4,9 +4,9 @@ steg 1 ./run-docker<br>
 steg 3 Kör appen pg.js<br>
 steg 2 ./check-table
 
-(hoppa denna om du kör med en volume) 
-### Starta docker med miljövariabler
 
+### Starta docker med miljövariabler
+(hoppa denna om du kör med en volume) 
 ```js
 docker run -e POSTGRES_PASSWORD=pass -e POSTGRES_USER=awesome -e POSTGRES_DB=iss-db -p 5432:5432 -it (-d) postgres
 ```
@@ -17,7 +17,7 @@ docker run -e POSTGRES_PASSWORD=pass -e POSTGRES_USER=awesome -e POSTGRES_DB=iss
 docker run --rm -e POSTGRES_PASSWORD=pass -e POSTGRES_USER=awesome -e POSTGRES_DB=iss-db -p 5432:5432 -v pgdata:/var/lib/postgresql/data -d postgres
 ```
 
-### Kör docker containern:
+### Kolla tabell med docker id:
 
 ```js
 docker exec -i 28b018b49dd0 psql -U awesome -d iss-db -c "SELECT * FROM iss_locate;"
