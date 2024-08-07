@@ -1,8 +1,8 @@
 ### Users
 
-$ cat /etc/passwd | grep dennis
-dennis:x:1000:1000:,,,:/home/dennis:/bin/bash
-username:hashpasswd:UID:GID:userinfo:/homedirr:/usershell
+$ cat /etc/passwd | grep dennis\
+dennis:x:1000:1000:,,,:/home/dennis:/bin/bash\
+username:hashpasswd:UID:GID:userinfo:/homedirr:/usershell\
 
 $ sudo useradd nicepool
 $ cat /etc/passwd | grep nicepool
