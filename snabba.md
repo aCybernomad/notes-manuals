@@ -46,3 +46,8 @@ dennis:x:1000:1000:,,,:/home/dennis:/bin/bash
 $ sudo usermod -aG hackz nicepool\
 $ groups nicepool\
 nicepool : nicepool hackz
+
+### Delete user from group
+$ sudo gpasswd -d nicepool hackz\
+                  user     group
+
