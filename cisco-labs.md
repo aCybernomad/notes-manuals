@@ -12,14 +12,10 @@ R1(config)#**no service password-encryption** //Decrypt routers
 
 R1(config)#**enable secret ccns** #Enable secret password\
 
-R2#sh startup-config\
-R2#copy running-config startup-config \
-(Same)\
-R2#write\
+R1#write\
 Building configuration...\
 [OK]\
-R2#reload
-
+R1#reload
 
 ### 🔀 Console
 R1(config)#line console 0\
