@@ -16,10 +16,10 @@ $ ls -l /home/
 $ sudo userdel -r nicepool\
 $ ls -l /home/
 
-### Add pass user\
+### Add pass user
 $ sudo passwd nicepool
 
-### 〰️ Etsy shadow\
+### 〰️ Etsy shadow
 $ sudo cat /etc/shadow | grep nicepool\
 $ nicepool:$y$j9T$jbnI1SOC7ylq1rBkpY9ou1$Sznd53zlPKBk4UPXDPHBGxh78AhfQoHUj37MTwNkmAC:19942:0:99999:7:::\
 username:hashpasswd:dayslastchanged:changeanytime:changeagain:remindedtochange:::
