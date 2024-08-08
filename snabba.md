@@ -1,11 +1,11 @@
 # 👥 Add/Delete Users
 
-### Look
+### Info 
 $ cat /etc/passwd | grep dennis\
 dennis:x:1000:1000:,,,:/home/dennis:/bin/bash\
 username:hashpasswd:UID:GID:userinfo:/homedirr:/usershell
 
-### 〰️ Add + homedirr
+### ⚪ Add + homedirr
 $ sudo useradd -m nicepool\
 $ cat /etc/passwd | grep nicepool\
 Output:nicepool:x:1001:1001::/home/nicepool:/bin/bash\
