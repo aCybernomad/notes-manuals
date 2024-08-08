@@ -1,4 +1,4 @@
-# 🖥️ Commands
+# 🖥️ Basic Commands
 Router> User Exect Mode\
 Router# enable (Privileged Exec Mode )\
 Router(config) # Configure Terminal (Global Config Mode)
