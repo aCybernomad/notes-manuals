@@ -23,6 +23,11 @@ R1(config-line)#password ccna\
 R1(config-line)login
 
 ### 🔀 Static Route
+
+// DET NÄTET MAN VILL TILL VIA NÄRMASTE ROUTER //
+
+// FÖR ATT ÄNDRA IP PÅ INTERFACE //
+
 Router(config-if)#ip address 192.168.13.2 255.255.255.0\
 Router(config)#do sh ip in br
 
