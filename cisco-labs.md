@@ -28,8 +28,7 @@ R1(config-line)login
 Router(config-if)#ip address 192.168.13.2 255.255.255.0\
 Router(config)#do sh ip in br
 
-// STATIC ROUTE //
-// DET NÄTET MAN VILL TILL VIA NÄRMASTE ROUTER //\
+// STATIC ROUTE, DET NÄTET MAN VILL TILL VIA NÄRMASTE ROUTER //\
 // MALL // ip route {ip-prefix | ip-addr ip-mask} {next-hop}\
 Router(config)#ip route 192.168.3.0 255.255.255.0 198.168.13.3\
 Router(config)#do sh ip ro
