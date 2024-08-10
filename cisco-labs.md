@@ -33,5 +33,8 @@ Router(config)#do sh ip in br
 Router(config)#ip route 192.168.3.0 255.255.255.0 198.168.13.3\
 Router(config)#do sh ip ro
 
+// RADERA ROUTE //\
+Router(config)#no route (ip nummer) 
+
 
 
