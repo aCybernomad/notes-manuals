@@ -22,3 +22,13 @@ R1(config)#line console 0\
 R1(config-line)#password ccna\
 R1(config-line)login
 
+### 🔀 Static Route
+Router(config-if)#ip address 192.168.13.2 255.255.255.0\
+Router(config)#do sh ip in br
+
+Router(config)#ip route 192.168.3.0 255.255.255.0 198.168.13.3\
+ip route {ip-prefix | ip-addr ip-mask} {next-hop}\
+Router(config)#do sh ip ro
+
+
+
